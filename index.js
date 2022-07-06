@@ -79,9 +79,7 @@ ${chalk.bgRed.bold(`Contact Developer  : `)} ${chalk.blue(`Discord : `)} ${chalk
       const crown = data.User.Crowns;
 
 (console.log(`[ ${moment().format('HH:mm:ss')} ] 
-${chalk.bgRed.white.dim(`⟩ User : ${username}`)} 
-${chalk.bgWhite.black.dim(`⟩ Trophy : ${trophy}`)} 
-${chalk.bgBlue.black.dim(`⟩ Crown : ${crown}`)}
+${chalk.blue.dim(`⟩ User : ${username}`)} ${chalk.green.dim(`⟩ Trophy : ${trophy}`)} ${chalk.red.dim(`⟩ Crown : ${crown}`)}
 ${chalk.white(` `)}`));
       await sleep(4500);
 
